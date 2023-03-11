@@ -1,0 +1,71 @@
+.bg{
+    align-items: center;
+    display:contents;
+    justify-content: center ;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.from{
+    padding: 20px;
+    border-radius: 1rem;
+    border: solid palevioletred 5px;
+    height:400px;
+    width: 700px;
+    display:block;
+    text-align:center;
+    margin-top: 1%;
+}
+.fromcontrol{
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px
+}
+.fromcontrol label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: palevioletred;
+}
+.fromcontrol input{
+    margin-top: 10px;
+    display:block;
+    width: 80%;
+    margin-left: 50px;
+    border-radius: 1rem;
+    border: solid palevioletred 2px;
+    height: 40px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+
+.formcontrol input:focus{
+    outline: none;
+}
+.btn0{
+    margin-top: 20px;
+    cursor: pointer;
+    width: 150px;
+    height:40px;
+    border-radius: 1rem;
+    
+}
+.btn0:hover{
+    background-color:palevioletred;
+    color: #fff;
+    transition :color   0.5s;
+    transition: background-color 0.5s;
+}
+h1{
+    color: palevioletred;
+}
+.toregister{
+    margin-top: 40px;
+    color: palevioletred;
+}
+.toregister a {
+    color:#fff;
+    font-weight: 50;
+}
